@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+.photo {
+  height: 300px;
+  width: 300px;
+}
+
+.user-btn:hover {
+  color: white !important;
+}
+
+.bg-muted {
+  background-color: var(--mainWhite);
+}
